@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+#container01 {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  #arrayInput {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #sortArrayBtn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #sortArrayBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  #sortedOutput {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  #container02 {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  #nameInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #processNameBtn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #processNameBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  #nameOutput {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  #container03 {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  #stringInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #checkLettersBtn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #checkLettersBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  #checkOutput {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  #container04 {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  #numberInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #calculateFactorialBtn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #calculateFactorialBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  #factorialOutput {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  #container05 {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  #xInput, #yInput {
+    width: 48%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #generatePairsBtn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #generatePairsBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  #pairsOutput {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  #container06 {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  #coinInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #countCoinsBtn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #countCoinsBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  #coinOutput {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  #container07 {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  #idCodeInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #validateIdBtn {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #validateIdBtn:hover {
+    background-color: #218838;
+  }
+  
+  #idValidationResult {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  #container08 {
+    padding: 20px;
+}
+
+#container08 input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#generateLicenseBtn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#generateLicenseBtn:hover {
+    background-color: #0056b3;
+}
+
+#licenseOutput {
+    margin-top: 20px;
+    font-weight: bold;
+}

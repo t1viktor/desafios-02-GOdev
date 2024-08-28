@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <button class="btn01">Conteúdo Botão 1</button>
+        <button class="btn02">Conteúdo Botão 2</button>
+        <button class="btn03">Conteúdo Botão 3</button>
+        <button class="btn04">Conteúdo Botão 4</button>
+        <button class="btn05">Conteúdo Botão 5</button>
+        <button class="btn06">Conteúdo Botão 6</button>
+        <button class="btn07">Conteúdo Botão 7</button>
+        <button class="btn08">Conteúdo Botão 8</button>
+    </header>
+
+    <div id="container01" class="display">
+        <h2>Ordenar Array Bidimensional</h2>
+        <textarea id="arrayInput" placeholder='Exemplo de entrada: [[1,5,3],[6,19,11],[47,128,5],[1,93,57,42,103]]'></textarea>
+        <button id="sortArrayBtn">Ordenar</button>
+        <div id="sortedOutput"></div>
+    </div>
+    
+    <div id="container02" class="display">
+        <h2>Abreviar Nomes</h2>
+        <input type="text" id="nameInput" placeholder="Insira um nome completo">
+        <button id="processNameBtn">Processar Nome</button>
+        <div id="nameOutput"></div>
+    </div>
+
+    <div id="container03" class="display">
+        <h2>Verificar Quantidade de Letras</h2>
+        <input type="text" id="stringInput" placeholder="Insira uma string">
+        <button id="checkLettersBtn">Verificar</button>
+        <div id="checkOutput"></div>
+    </div>
+
+    <div id="container04" class="display">
+        <h2>Calcular Fatorial</h2>
+        <input type="number" id="numberInput" placeholder="Insira um número" min="0">
+        <button id="calculateFactorialBtn">Calcular Fatorial</button>
+        <div id="factorialOutput"></div>
+    </div>
+
+    <div id="container05" class="display">
+        <h2>Gerar Pares Ordenados</h2>
+        <input type="number" id="xInput" placeholder="Insira o valor de x" min="0">
+        <input type="number" id="yInput" placeholder="Insira o valor de y" min="0">
+        <button id="generatePairsBtn">Gerar Pares</button>
+        <div id="pairsOutput"></div>
+    </div>
+
+    <div id="container06" class="display">
+        <h2>Contagem de Moedas</h2>
+        <p>Moedas: 1, 5, 10, 25, 100, 500</p>
+        <input type="number" id="coinInput" placeholder="Insira o valor em créditos" min="0">
+        <button id="countCoinsBtn">Calcular Moedas</button>
+        <div id="coinOutput"></div>
+    </div>
+
+    <div id="container07" class="display">
+        <h2>Validação de Código de Identificação</h2>
+        <input type="text" id="idCodeInput" placeholder="Insira o código de identificação">
+        <button id="validateIdBtn">Validar Código</button>
+        <div id="idValidationResult"></div>
+    </div>
+
+    <div id="container08" class="display">
+        <h2>Gerar Licença de Voo</h2>
+        <input type="text" id="nomeInput" placeholder="Nome" required>
+        <input type="text" id="sobrenomeInput" placeholder="Sobrenome" required>
+        <input type="date" id="dataNascimentoInput" required>
+        <button id="generateLicenseBtn">Gerar Licença</button>
+        <div id="licenseOutput"></div>
+    </div>
+    
+
+    <script src="scripts.js"></script>
+</body>
+</html>
